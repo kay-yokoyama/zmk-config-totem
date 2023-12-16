@@ -34,13 +34,13 @@
 
         combo_esc {
             timeout-ms = <32>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
 
         ZH {
             bindings = <&kp LA(GRAVE)>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
             timeout-ms = <32>;
         };
 
@@ -119,6 +119,18 @@
         sysreset {
             bindings = <&sys_reset>;
             key-positions = <31 23 24>;
+            timeout-ms = <32>;
+        };
+
+        win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <21 22>;
+            timeout-ms = <32>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <10 11>;
             timeout-ms = <32>;
         };
     };
