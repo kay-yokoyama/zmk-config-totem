@@ -36,102 +36,133 @@
             timeout-ms = <32>;
             key-positions = <1 2>;
             bindings = <&kp ESC>;
+            layers = <0>;
         };
 
         ZH {
             bindings = <&kp LA(GRAVE)>;
             key-positions = <11 12>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         del {
             bindings = <&kp DELETE>;
             key-positions = <17 18>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         ins {
             bindings = <&kp INS>;
             key-positions = <7 8>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         BT0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <3 4>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         BT1 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <13 14>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         BT2 {
             bindings = <&bt BT_SEL 2>;
             key-positions = <24 24 25>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         bt3 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <2 3>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         BT4 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <12 13>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         btdis0 {
             bindings = <&bt BT_DISC 0>;
-            key-positions = <3 4 31>;
+            key-positions = <3 4>;
             timeout-ms = <32>;
+            layers = <3>;
         };
 
         BTdis1 {
             bindings = <&bt BT_DISC 1>;
-            key-positions = <31 13 14>;
+            key-positions = <13 14>;
             timeout-ms = <32>;
+            layers = <2>;
         };
 
         BTdis2 {
             bindings = <&bt BT_DISC 2>;
-            key-positions = <31 25 24>;
+            key-positions = <25 24>;
             timeout-ms = <32>;
+            layers = <2>;
         };
 
         BTdis3 {
             bindings = <&bt BT_DISC 3>;
-            key-positions = <2 3 31>;
+            key-positions = <2 3>;
             timeout-ms = <32>;
+            layers = <2>;
         };
 
         BTdis4 {
             bindings = <&bt BT_DISC 4>;
-            key-positions = <31 12 13>;
+            key-positions = <12 13>;
             timeout-ms = <32>;
+            layers = <2>;
         };
 
         sysreset {
             bindings = <&sys_reset>;
-            key-positions = <31 23 24>;
+            key-positions = <23 24>;
             timeout-ms = <32>;
+            layers = <2>;
         };
 
         win {
             bindings = <&kp LEFT_WIN>;
             key-positions = <21 22>;
             timeout-ms = <32>;
+            layers = <0>;
         };
 
         alt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <10 11>;
             timeout-ms = <32>;
+            layers = <0>;
+        };
+
+        rwin {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <30 29>;
+            timeout-ms = <32>;
+            layers = <0>;
+        };
+
+        ralt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <18 19>;
+            timeout-ms = <32>;
+            layers = <0>;
         };
     };
 
