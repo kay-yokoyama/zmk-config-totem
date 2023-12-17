@@ -233,7 +233,7 @@
             bindings = <
         &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp UP    &kp LS(NUMBER_4)  &kp LS(N5)          &kp KP_ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
         &trans            &kp LEFT          &kp DOWN  &kp RIGHT         &kp SEMI            &kp KP_DIVIDE    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&trans  &trans            &kp PG_UP         &trans    &kp PG_DN         &kp SINGLE_QUOTE    &kp KP_EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp TAB
+&trans  &trans            &kp PG_UP         &trans    &kp PG_DN         &kp SINGLE_QUOTE    &kp EQUAL        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp TAB
                                             &trans    &trans            &trans              &trans           &kp NUMBER_0  &kp NUMBER_0
             >;
         };
