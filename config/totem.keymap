@@ -40,7 +40,7 @@
         };
 
         ZH {
-            bindings = <&kp LA(GRAVE)>;
+            bindings = <&kp GRAVE>;
             key-positions = <11 12>;
             timeout-ms = <32>;
             layers = <0>;
