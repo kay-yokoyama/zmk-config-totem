@@ -26,6 +26,7 @@
     global-quick-tap;
     flavor = "tap-preferred";
     tapping-term-ms = <170>;
+    quick-tap-ms  = <200>;
 };
 
 
