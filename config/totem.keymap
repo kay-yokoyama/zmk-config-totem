@@ -61,76 +61,6 @@
             layers = <0>;
         };
 
-        BT0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <3 4>;
-            timeout-ms = <32>;
-            layers = <0>;
-        };
-
-        BT1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <13 14>;
-            timeout-ms = <32>;
-            layers = <0>;
-        };
-
-        BT2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <24 24 25>;
-            timeout-ms = <32>;
-            layers = <0>;
-        };
-
-        bt3 {
-            bindings = <&bt BT_SEL 3>;
-            key-positions = <2 3>;
-            timeout-ms = <32>;
-            layers = <0>;
-        };
-
-        BT4 {
-            bindings = <&bt BT_SEL 4>;
-            key-positions = <12 13>;
-            timeout-ms = <32>;
-            layers = <0>;
-        };
-
-        btdis0 {
-            bindings = <&bt BT_DISC 0>;
-            key-positions = <3 4>;
-            timeout-ms = <32>;
-            layers = <3>;
-        };
-
-        BTdis1 {
-            bindings = <&bt BT_DISC 1>;
-            key-positions = <13 14>;
-            timeout-ms = <32>;
-            layers = <2>;
-        };
-
-        BTdis2 {
-            bindings = <&bt BT_DISC 2>;
-            key-positions = <25 24>;
-            timeout-ms = <32>;
-            layers = <2>;
-        };
-
-        BTdis3 {
-            bindings = <&bt BT_DISC 3>;
-            key-positions = <2 3>;
-            timeout-ms = <32>;
-            layers = <2>;
-        };
-
-        BTdis4 {
-            bindings = <&bt BT_DISC 4>;
-            key-positions = <12 13>;
-            timeout-ms = <32>;
-            layers = <2>;
-        };
-
         sysreset {
             bindings = <&sys_reset>;
             key-positions = <23 24>;
@@ -206,10 +136,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp E               &kp R      &kp T          &kp Y          &kp U        &kp I      &kp O    &kp P
-           &kp A  &kp S  &kp D               &kp F      &kp G          &kp H          &kp J        &kp K      &kp L    &lt 1 MINUS
-&kp LCTRL  &kp Z  &kp X  &kp C               &kp V      &kp B          &kp N          &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT BACKSPACE  &mt RIGHT_ALT SLASH
-                         &mt LEFT_WIN LANG2  &lt 1 RET  &lt SYM TAB    &lt SYM LANG1  &lt 3 SPACE  &kp ESC
+           &kp Q  &kp W  &kp E        &kp R      &kp T          &kp Y          &kp U        &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D        &kp F      &kp G          &kp H          &kp J        &kp K      &kp L    &lt 1 MINUS
+&kp LCTRL  &kp Z  &kp X  &kp C        &kp V      &kp B          &kp N          &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT BACKSPACE  &mt RIGHT_ALT SLASH
+                         &lt 6 LANG2  &lt 1 RET  &lt SYM TAB    &lt SYM LANG1  &lt 3 SPACE  &lt 6 ESC
             >;
         };
 
@@ -312,7 +242,7 @@
             bindings = <
        &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
        &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
-&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
+&kp A  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
                               &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
             >;
         };
@@ -345,10 +275,10 @@
 
         layer_6 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4
+        &trans        &trans        &trans        &trans        &trans          &trans         &trans         &trans         &trans         &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans         &trans         &trans         &trans         &trans         &trans
+                                    &trans        &trans        &trans          &trans         &trans         &trans
             >;
         };
     };
