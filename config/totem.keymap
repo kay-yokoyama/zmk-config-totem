@@ -190,7 +190,7 @@
             bindings = <
         &kp EXCL         &kp AT                &kp HASH   &kp DLLR          &kp PRCNT     &kp CARET   &kp AMPS              &kp LS(N8)    &kp LS(N9)                &kp LBKT
         &kp LS(EQUAL)    &kp LS(LEFT_BRACKET)  &kp RA(S)  &kp SEMI          &kp COMMA     &kp C_MUTE  &kp LS(LEFT_BRACKET)  &kp RBKT      &kp BACKSLASH             &kp EQUAL
-&trans  &kp LS(INT_YEN)  &trans                &trans     &kp SINGLE_QUOTE  &kp PERIOD    &trans      &kp INT_YEN           &kp LS(RBKT)  &kp LS(NON_US_BACKSLASH)  &kp INT_RO  &kp LS(FSLH)
+&trans  &kp LS(INT_YEN)  &trans                &trans     &kp SINGLE_QUOTE  &kp PERIOD    &trans      &kp INT_YEN           &kp LS(RBKT)  &kp LS(NON_US_BACKSLASH)  &kp INT_RO  &kp UNDERSCORE
                                                &trans     &gif              &trans        &trans      &trans                &trans
             >;
         };
